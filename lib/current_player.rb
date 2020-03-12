@@ -1,10 +1,11 @@
 # First player = "X" so....odd turns are "X" and even turns are "O"
 
 # Return value = number of turns that have been played
+board = Array.new(9, "")
 
 def turn_count(board)
   board.each do |played|
-    puts "play next move #{{played}}"
+    puts "play next move #{played}"
   end
 end
 
