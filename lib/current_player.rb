@@ -10,8 +10,8 @@ def turn_count(board)
     puts " Play '0' next"
     else
     puts "play '0' next"
-    counter += 1
     end
+    number_of_turns += 1
   end
 end
 
