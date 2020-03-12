@@ -5,7 +5,7 @@ board = Array.new(9, "")
 
 def turn_count(board)
   number_of_turns = 0
-  board.each do |played|
+  board.each |played|
     if played == "X" || played == "O"
     number_of_turns += 1
     end
