@@ -9,6 +9,7 @@ def turn_count(board)
     if played == "X" || played == "O"
     number_of_turns += 1
     end
+  end
   return number_of_turns
 end
 
