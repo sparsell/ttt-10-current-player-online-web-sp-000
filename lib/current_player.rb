@@ -4,8 +4,10 @@
 board = Array.new(9, "")
 
 def turn_count(board)
+  counter = 1
   board.each do |played|
     puts "play next move #{played}"
+    counter +=
   end
 end
 
