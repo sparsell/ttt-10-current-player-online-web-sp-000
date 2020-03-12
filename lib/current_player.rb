@@ -3,8 +3,6 @@
 # Return value = number of turns that have been played
 board = Array.new(9, "")
 
-
-
 def turn_count(board)
   number_of_turns = 0
   board.each do |played|
@@ -13,7 +11,7 @@ def turn_count(board)
     counter += 1
   end
 end
-
+end
 
 def current_player(board)
   turn_count(board)
