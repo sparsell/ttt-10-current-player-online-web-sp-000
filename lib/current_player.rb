@@ -8,11 +8,11 @@ def turn_count(board)
   board.each do |played|
     if played == "X"
     puts " Play '0' next"
-  else
+    else
     puts "play '0' next"
     counter += 1
+    end
   end
-end
 end
 
 def current_player(board)
