@@ -7,7 +7,7 @@ def turn_count(board)
   counter = 1
   board.each do |played|
     puts "play next move #{played}"
-    counter +=
+    counter += 1
   end
 end
 
