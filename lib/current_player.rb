@@ -3,10 +3,13 @@
 # Return value = number of turns that have been played
 board = Array.new(9, "")
 
+
+
 def turn_count(board)
-  counter = 0
+  number_of_turns = 0
   board.each do |played|
-    puts "play next move #{played}"
+    if played == "X"
+    puts " Play '0' next"
     counter += 1
   end
 end
